@@ -15,13 +15,13 @@
 
 缺点是只支持Android4.3+（Android4.1和4.2已有MediaCodec，但是官方不保证可用）
 
-##使用
+## 使用
 
 SVideoRecorder需要如下权限
 
 > &#60;uses-permission android:name="android.permission.RECORD_AUDIO" />
 
-##Gradle
+## Gradle
 
 在根目录下的build.gradle里添加maven仓库
 ``` groovy
