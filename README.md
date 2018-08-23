@@ -1,7 +1,7 @@
 # SVideoRecorder
 
 [SVideoRecorder](https://github.com/yellowcath/SVideoRecorder)使用Android原生的MediaCodec进行视频录制，对比大量使用FFmpeg进行录制的库优点如下：
-
+ 
 - **体积小** ：编译后的aar只有187K，ffmpeg一个so就7、8M，精简之后也差不多还有一半大小
 - **速度快** ：在huaweiP9上，720P的一帧：
  FFmpeg编码时间:50~60ms
@@ -28,12 +28,12 @@ SSurfaceRecorder:提供一个Surface，录制绘制到该Surface上的图像数�
 SSegmentRecorder:对上述两个类进行包装，扩展出分段录制的能力
 ###初始化
 ``` java
-        //实现ICameraProxyForRecord接口，提供预览参数
+        //实现ICameraProxyForRecord接口，提供预览参数 
         ICameraProxyForRecord cameraProxyForRecord = new ICameraProxyForRecord() {
             @Override
             public void addSurfaceDataListener(PreviewSurfaceListener listener, SurfaceCreatedCallback callback) {
             //SSurfaceRecorder调用
-                 RecordHelper.setPreviewSurfaceListener(previewSurfaceListener, surfaceCreatedCallback);
+                 RecordHelper.setPreviewSurfaceListener(previewSurfaceListener, surfaceCreatedCallback);   
             }
             @Override
             public void removeSurfaceDataListener(PreviewSurfaceListener listener) {
@@ -100,8 +100,6 @@ SSurfaceRecorder
 3、分段录带特效视频（Surface）
 ![enter image description here](https://github.com/yellowcath/SVideoRecorder/raw/develop-git/readme/demo1.png)
 ![enter image description here](https://github.com/yellowcath/SVideoRecorder/raw/develop-git/readme/demo2.png)
-
-
 
 
 
