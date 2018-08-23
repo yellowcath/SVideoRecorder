@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+apply from: "./deploy.gradle"
+//apply plugin: 'us.pinguo.tool.publish'
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+        ndk {
+            // Specifies the ABI configurations of your native
+            // libraries Gradle should build and package with your APK.
+            abiFilters 'armeabi-v7a'
+            //'x86', 'x86_64', 'armeabi', ,
+            //        'arm64-v8a'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+//publish{
+//    publish_id 'svideo'
+//}
+
+dependencies {
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly fileTree(dir: 'libs', include: ['PG_Effect_SDK.jar'])
+
+    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:support-v4:26.1.0'
+}

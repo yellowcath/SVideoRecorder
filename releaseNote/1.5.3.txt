@@ -1,0 +1,111 @@
+
+------------------------------------------------------------------------------------------------------------------------
+2017å¹´12æœˆ25æ—¥ 14:51:26
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+END_OF_PUBLISH
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+2017å¹´12æœˆ25æ—¥ 14:55:40
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+END_OF_PUBLISH
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+2017å¹´12æœˆ25æ—¥ 14:55:51
+------------------------------------------------------------------------------------------------------------------------
+Configuration 'testCompile' in project ':demo' is deprecated. Use 'testImplementation' instead.
+Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
+60 ¸ö¾¯¸æ
+Configuration 'testCompile' in project ':demo' is deprecated. Use 'testImplementation' instead.
+Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
+
+------------------------------------------------------------
+Project :library
+------------------------------------------------------------
+
+archives - Configuration for archive artifacts.
++--- com.googlecode.mp4parser:isoparser:1.1.7
+|    \--- org.aspectj:aspectjrt:1.8.2
+\--- com.android.support:support-v4:26.1.0
+     +--- com.android.support:support-compat:26.1.0
+     |    +--- com.android.support:support-annotations:26.1.0
+     |    \--- android.arch.lifecycle:runtime:1.0.0
+     |         +--- android.arch.lifecycle:common:1.0.0
+     |         \--- android.arch.core:common:1.0.0
+     +--- com.android.support:support-media-compat:26.1.0
+     |    +--- com.android.support:support-annotations:26.1.0
+     |    \--- com.android.support:support-compat:26.1.0 (*)
+     +--- com.android.support:support-core-utils:26.1.0
+     |    +--- com.android.support:support-annotations:26.1.0
+     |    \--- com.android.support:support-compat:26.1.0 (*)
+     +--- com.android.support:support-core-ui:26.1.0
+     |    +--- com.android.support:support-annotations:26.1.0
+     |    \--- com.android.support:support-compat:26.1.0 (*)
+     \--- com.android.support:support-fragment:26.1.0
+          +--- com.android.support:support-compat:26.1.0 (*)
+          +--- com.android.support:support-core-ui:26.1.0 (*)
+          \--- com.android.support:support-core-utils:26.1.0 (*)
+
+(*) - dependencies omitted (listed previously)
+------------------------------------------------------------------------------------------------------------------------
+END_OF_PUBLISH
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+2017å¹´12æœˆ25æ—¥ 15:21:39
+------------------------------------------------------------------------------------------------------------------------
+Configuration 'testCompile' in project ':demo' is deprecated. Use 'testImplementation' instead.
+Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
+----------------------------------------SUCCESS----------------------------------------
+----- us.pinguo.common:svideo:1.5.3 was published                                 -----
+----- to http://maven.camera360.com/repository/maven-releases/                    -----
+----- at 2017-12-25 15:21:42                                                      -----
+----- by huangwei                                                                 -----
+----- packaging is aar                                                            -----
+---------------------------------------------------------------------------------------
+ÃèÊöÐÅÏ¢:Default Desc
+Configuration 'testCompile' in project ':demo' is deprecated. Use 'testImplementation' instead.
+Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
+
+------------------------------------------------------------
+Project :library
+------------------------------------------------------------
+
+archives - Configuration for archive artifacts.
++--- com.googlecode.mp4parser:isoparser:1.1.7
+|    \--- org.aspectj:aspectjrt:1.8.2
+\--- com.android.support:support-v4:26.1.0
+     +--- com.android.support:support-compat:26.1.0
+     |    +--- com.android.support:support-annotations:26.1.0
+     |    \--- android.arch.lifecycle:runtime:1.0.0
+     |         +--- android.arch.lifecycle:common:1.0.0
+     |         \--- android.arch.core:common:1.0.0
+     +--- com.android.support:support-media-compat:26.1.0
+     |    +--- com.android.support:support-annotations:26.1.0
+     |    \--- com.android.support:support-compat:26.1.0 (*)
+     +--- com.android.support:support-core-utils:26.1.0
+     |    +--- com.android.support:support-annotations:26.1.0
+     |    \--- com.android.support:support-compat:26.1.0 (*)
+     +--- com.android.support:support-core-ui:26.1.0
+     |    +--- com.android.support:support-annotations:26.1.0
+     |    \--- com.android.support:support-compat:26.1.0 (*)
+     \--- com.android.support:support-fragment:26.1.0
+          +--- com.android.support:support-compat:26.1.0 (*)
+          +--- com.android.support:support-core-ui:26.1.0 (*)
+          \--- com.android.support:support-core-utils:26.1.0 (*)
+
+(*) - dependencies omitted (listed previously)
+------------------------------------------------------------------------------------------------------------------------
+END_OF_PUBLISH
+------------------------------------------------------------------------------------------------------------------------
+
+

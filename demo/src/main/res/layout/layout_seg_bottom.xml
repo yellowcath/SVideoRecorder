@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<us.pinguo.svideoDemo.ui.BottomSegMenuView
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/record_bottom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_alignParentBottom="true"
+    android:background="#66000000" tools:showIn="@layout/activity_texture_record">
+    <us.pinguo.svideoDemo.ui.VideoProgressLayout
+        android:id="@+id/video_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_alignParentTop="true"
+        android:visibility="gone">
+
+        <!-- 小视频的进度条-->
+        <us.pinguo.svideoDemo.ui.SegProgressBar
+            android:id="@+id/svideo_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_gravity="bottom"
+            android:background="@null"
+            android:progressDrawable="@drawable/svideo_progress_drawable" />
+
+        <View
+            android:id="@+id/svideo_progress_min"
+            android:layout_width="2dp"
+            android:layout_height="8dp"
+            android:layout_gravity="bottom"
+            android:background="#FFFFFF" />
+
+        <View
+            android:id="@+id/video_end_point"
+            android:layout_width="5dp"
+            android:layout_height="8dp"
+            android:background="#FFFFFF" />
+    </us.pinguo.svideoDemo.ui.VideoProgressLayout>
+    <ImageView
+        android:id="@+id/shutter_btn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/shutter_drawable"
+        android:scaleType="fitCenter" />
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/video_save"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="60dp"
+        app:srcCompat="@drawable/ic_check_white_24dp" />
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/video_delete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        app:srcCompat="@drawable/ic_delete" />
+</us.pinguo.svideoDemo.ui.BottomSegMenuView>
