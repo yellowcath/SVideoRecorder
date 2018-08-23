@@ -3,7 +3,8 @@
 [SVideoRecorder](https://github.com/yellowcath/SVideoRecorder)使用Android原生的MediaCodec进行视频录制，对比大量使用FFmpeg进行录制的库优点如下：
  
 - **体积小** ：编译后的aar只有187K，ffmpeg一个so就7、8M，精简之后也差不多还有一半大小
-- **速度快** ：在huaweiP9上，720P的一帧:
+- **速度快** ：在huaweiP9上，720P的一帧
+
  FFmpeg编码时间:50~60ms
 
  MediaCodec（YUV）编码时间：20~25ms
