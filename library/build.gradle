@@ -1,5 +1,7 @@
 apply plugin: 'com.android.library'
 apply from: "./deploy.gradle"
+group = 'yellowcath'
+
 //apply plugin: 'us.pinguo.tool.publish'
 android {
     compileSdkVersion 26
