@@ -138,6 +138,10 @@ public class VideoInfo implements Parcelable {
                     trackFormat.getInteger(MediaFormat.KEY_FRAME_RATE) : 0);
             videoInfo.setDuration(trackFormat.containsKey(MediaFormat.KEY_DURATION) ?
                     trackFormat.getLong(MediaFormat.KEY_DURATION) / 1000 : 0);
+            videoInfo.setVideoWidth(trackFormat.getInteger(MediaFormat.KEY_WIDTH));
+            videoInfo.setVideoHeight(trackFormat.getInteger(MediaFormat.KEY_HEIGHT));
+            videoInfo.setVideoRotation(trackFormat.containsKey(MediaFormat.KEY_ROTATION) ?
+                    trackFormat.getInteger(MediaFormat.KEY_ROTATION) : 0);
         } catch (Exception e) {
             RL.e(e);
         } finally {

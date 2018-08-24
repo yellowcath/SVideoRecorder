@@ -57,7 +57,7 @@ public class PreviewActivity2 extends AppCompatActivity {
                     int rotation = videoInfo.getVideoRotation();
                     long duration = videoInfo.getDuration();
                     videoInfoStr = String.format("size:%dX%d,framerate:%d,rotation:%d,bitrate:%d,duration:%.1fs", width, height, frameRate, rotation, bitrate,
-                            duration / 1000f / 1000f);
+                            duration / 1000f);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
