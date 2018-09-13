@@ -52,7 +52,7 @@ dependencies {
 
 4、支持分段录制时进行回退
 
-##使用
+## 使用
 主要类图如下
  ![enter image description here](https://github.com/yellowcath/SVideoRecorder/raw/develop-git/readme/ISVideoRecorder.png)
 SMediaCodecRecorder:接收YUV数据进行录制
@@ -61,7 +61,7 @@ SSurfaceRecorder:提供一个Surface，录制绘制到该Surface上的图像数�
 
 SSegmentRecorder:对上述两个类进行包装，扩展出分段录制的能力
 
-###初始化
+### 初始化
 ``` java
         //实现ICameraProxyForRecord接口，提供预览参数 
         ICameraProxyForRecord cameraProxyForRecord = new ICameraProxyForRecord() {
@@ -119,7 +119,7 @@ SSurfaceRecorder
 
 > 2、drawBlit2X，直接将预览界面的图像数据重复绘制一次到MediaCodec的Surface，考虑到性能问题，这里需要使用FBO
 
-###调用
+### 调用
 ``` java
     //开始录制
     mRecorder.startRecord();
@@ -133,7 +133,7 @@ SSurfaceRecorder
     mRecorder.cancelRecord();
 ```
 
-##Demo
+## Demo
 
 1、正常录YUV格式视频
 
