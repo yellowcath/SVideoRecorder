@@ -1,5 +1,7 @@
 # SVideoRecorder
 
+From [Camera360](https://play.google.com/store/apps/details?id=vStudio.Android.Camera360)  
+
 [SVideoRecorder](https://github.com/yellowcath/SVideoRecorder)使用Android原生的MediaCodec进行视频录制，对比大量使用FFmpeg进行录制的库优点如下：
  
 - **体积小** ：编译后的aar只有187K，ffmpeg一个so就7、8M，精简之后也差不多还有一半大小
