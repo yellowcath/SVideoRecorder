@@ -1,8 +1,7 @@
 apply plugin: 'com.android.library'
-apply from: "./deploy.gradle"
+apply plugin: 'com.github.dcendents.android-maven'
 group = 'yellowcath'
 
-//apply plugin: 'us.pinguo.tool.publish'
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
@@ -41,14 +40,5 @@ android {
     }
 }
 
-//publish{
-//    publish_id 'svideo'
-//}
-
 dependencies {
-//    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly fileTree(dir: 'libs', include: ['PG_Effect_SDK.jar'])
-
-    testCompile 'junit:junit:4.12'
-    implementation 'com.android.support:support-v4:26.1.0'
 }
