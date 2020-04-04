@@ -38,7 +38,7 @@ allprojects {
 添加依赖
 ``` groovy
 dependencies {
-        implementation 'com.github.yellowcath:SVideoRecorder:2.0.1'
+        implementation 'com.github.yellowcath:SVideoRecorder:2.0.2'
 }
 ```
 
